@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+    @media all and (max-width: 400px) and (min-width: 0px) {
+        .stuff {
+            display: flex;
+            align-content: center;
+            flex-direction: column;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            border: solid green 1px;
+            color: white;
+            text-align: center;
+            align-self: center;
+            margin: 10px;
+        }
+    }
+
+  
+ 
+
+    .stuff {
+        display: flex;
+        justify-content: center;
+    }
+
+    .box {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        border: solid green 1px;
+        color: white;
+        text-align: center;
+        align-self: center;
+        margin: 10px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="stuff">
+        <div id="one" class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div id="right" class="box">4</div>
+        <div id="left" class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+    </div>
+</body>
+
+</html>
